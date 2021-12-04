@@ -12,6 +12,12 @@ function App() {
     price2: 0,
   }
 
+  handleChange = ({ target: { value, name }}) => this.setState({ [name]: value}) 
+
+  createAndDownloadPdf = () => {
+    axios.post('/create-pdf', this.state)
+  }
+
   return (
     <div className="App">
       <input type="text" placeholder="Name" name="name" onChange={this.handleChange} />
