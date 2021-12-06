@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "PDF Generator React.JS app",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "(cd client && npm install); (cd server && npm install);",
+    "client": "(cd client && npm start)",
+    "server": "(cd server && nodemon server.js)",
+    "start": "(npm run client && npm run server)"
+  },
+  "author": "Umit Vice",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "html-pdf": "^3.0.1"
+  }
+}

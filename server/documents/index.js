@@ -86,8 +86,8 @@ return `
                  <td colspan="2">
                     <table>
                        <tr>
-                          <td class="title"><img  src="https://i2.wp.com/cleverlogos.co/wp-content/uploads/2018/05/reciepthound_1.jpg?fit=800%2C600&ssl=1"
-                             style="width:100%; max-width:156px;"></td>
+                          <td class="title"><img  src="https://pixabay.com/get/g69d86b4e3b304e512c2d1accbdb1b959b4d07e771b12219f0045feb05c2a227e10a2d4034bbec3d8a29ea8b640f527caeb61ba8a4679ad3971f09187fba4139b46c3f14d5b1ca7885e03b5a88bd6a26c_640.png"
+                             style="width:100%; max-width:300px;"></td>
                           <td>
                              Datum: ${`${today.getDate()}. ${today.getMonth() + 1}. ${today.getFullYear()}.`}
                           </td>
